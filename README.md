@@ -8,27 +8,28 @@ Actively intervewing for FullStack/Frontend/Backend Developer profiles .
 
 ##Some of my projects :-
 
-AUTOBACKEND is an tool which generates ready to deploy ,readable Code, with database Scripts Automatically
+🔗 [AutoBackend](https://autobackend.vercel.app/) is an tool which generates ready to deploy ,readable Code, with database Scripts Automatically
 • It is as easy to use as API testing tool eg. Postman .
 • It configures whole database for you.(IN DEVELOPMENT)
-🔗 [AutoBackend](https://autobackend.vercel.app/)
+🔗 
 
-EZZCOPY Its an simple tool to save your env links,dev links,or anything which you need to frequenty copy.
+🔗 [EzzCopy](https://ezzcopy.vercel.app/) Its an simple tool to save your env links,dev links,or anything which you need to frequenty copy.
 (it works only client side so no security concerns)
 • It can be of great use while coding or job search or spamming crypto airdrops 😜.
-🔗 [EzzCopy](https://ezzcopy.vercel.app/)
 
-OLXCLONE
-An Olx Clone Which is basically an second hand ecommerce store . (Was An interview Task 😜)
+
 🔗 [Olx Clone](https://olx-clone-frontend-lake.vercel.app/)
+An Olx Clone Which is basically an second hand ecommerce store . (Was An interview Task 😜)
 
 
 ##I would love to join your team as a FullStack developer .
 
 ##Skills & Experience.
-
 📕 React / HTML / CSS / JavaScript / Node.js / Express
+
+
 [![Jash's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JashAgrawal)](https://github.com/JashAgrawal/github-readme-stats)
+
 
 ##More about me
 
