@@ -1,32 +1,46 @@
-### Hi there 👋
+Hi there 👋, 
+This is Jash Agrawal
+I'm passionate FullStack developer
 
-<!--
-**JashAgrawal/JashAgrawal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am about to finish my bachelor’s degree in computer science. I Learn technologies to build project which solve real-life problems and not to just to showcase my work .
 
-Here are some ideas to get you started:
+Actively intervewing for FullStack/Frontend/Backend Developer profiles .
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+##Some of my projects :-
 
-Hi there 👋, This is Jash Agrawal
-I'm passionate MERN stack web developer
-I am about to finish my bachelor’s degree in computer science. I have what it takes to be a great web developer, front end or back end. Seeking to become the next front end developer on any web development team that’ll have me!
+AUTOBACKEND is an tool which generates ready to deploy ,readable Code, with database Scripts Automatically
+• It is as easy to use as API testing tool eg. Postman .
+• It configures whole database for you.(IN DEVELOPMENT)
+🔗 [AutoBackend](https://autobackend.vercel.app/)
 
-Innovative Front-end Developer to building and maintaining responsive websites in the recruiting industy.Proficient in Html, CSS, JavaScript, React,Node plus modern libraies and frameworks.Passionate about usabily and possess working knowledge of Figma,AdobeXD.
+EZZCOPY Its an simple tool to save your env links,dev links,or anything which you need to frequenty copy.
+(it works only client side so no security concerns)
+• It can be of great use while coding or job search or spamming crypto airdrops 😜.
+🔗 [EzzCopy](https://ezzcopy.vercel.app/)
 
-Seeking to become the next front end developer on any web development team that’ll have me!.
+OLXCLONE
+An Olx Clone Which is basically an second hand ecommerce store . (Was An interview Task 😜)
+🔗 [Olx Clone](https://olx-clone-frontend-lake.vercel.app/)
+
+
+##I would love to join your team as a FullStack developer .
 
 ##Skills & Experience.
 
 📕 React / HTML / CSS / JavaScript / Node.js / Express
+[![Jash's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JashAgrawal)](https://github.com/JashAgrawal/github-readme-stats)
 
-🔭 I’m currently working on this page.
+##More about me
+
+- 🔭 I’m currently working on "AutoBackend" (https://autobackend.vercel.app/) .
+- 🌱 I’m currently learning "AWS" .
+- 👯 I’m looking to collaborate on any exiting and innovative projects .
+- 💬 Ask me about Anything will learn about it then answer it for sure .
+- 📫 How to reach me:
+
+- LinkedIn - https://www.linkedin.com/in/jash--agrawal/
+- Email - agrawaljash99@gmail.com
+- linkTree - https://linktr.ee/jashagrawal
+- Resume - https://drive.google.com/file/d/1LI80rPV3qrKKcfYUsIgbrbN1U8ZnpWWx/view?usp=sharing
 
 [![Jash's GitHub stats](https://github-readme-stats.vercel.app/api?username=JashAgrawal)](https://github.com/JashAgrawal/github-readme-stats)
