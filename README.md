@@ -6,7 +6,18 @@ I am about to finish my bachelor’s degree in computer science. I Learn technol
 
 Actively intervewing for FullStack/Frontend/Backend Developer profiles .
 
-##Some of my projects :-
+## I would love to join your team as a FullStack developer .
+
+## More about me
+
+- 🔭 I’m currently working on "AutoBackend" (https://autobackend.vercel.app/) .
+- 🌱 I’m currently learning "AWS" .
+- 👯 I’m looking to collaborate on any exiting and innovative projects .
+- 💬 Ask me about Anything will learn about it then answer it for sure .
+- 📫 How to reach me:
+[LinkedIn](https://www.linkedin.com/in/jash--agrawal/)  [Email](agrawaljash99@gmail.com) [Resume]( https://drive.google.com/file/d/1LI80rPV3qrKKcfYUsIgbrbN1U8ZnpWWx/view?usp=sharing)
+
+## Some of my projects :-
 
 🔗 [AutoBackend](https://autobackend.vercel.app/) is an tool which generates ready to deploy ,readable Code, with database Scripts Automatically
 • It is as easy to use as API testing tool eg. Postman .
@@ -21,27 +32,13 @@ Actively intervewing for FullStack/Frontend/Backend Developer profiles .
 🔗 [Olx Clone](https://olx-clone-frontend-lake.vercel.app/)
 An Olx Clone Which is basically an second hand ecommerce store . (Was An interview Task 😜)
 
-
-##I would love to join your team as a FullStack developer .
-
-##Skills & Experience.
+# Skills & Experience.
 📕 React / HTML / CSS / JavaScript / Node.js / Express
 
 
 [![Jash's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JashAgrawal)](https://github.com/JashAgrawal/github-readme-stats)
 
 
-##More about me
-
-- 🔭 I’m currently working on "AutoBackend" (https://autobackend.vercel.app/) .
-- 🌱 I’m currently learning "AWS" .
-- 👯 I’m looking to collaborate on any exiting and innovative projects .
-- 💬 Ask me about Anything will learn about it then answer it for sure .
-- 📫 How to reach me:
-
-- LinkedIn - https://www.linkedin.com/in/jash--agrawal/
-- Email - agrawaljash99@gmail.com
-- linkTree - https://linktr.ee/jashagrawal
-- Resume - https://drive.google.com/file/d/1LI80rPV3qrKKcfYUsIgbrbN1U8ZnpWWx/view?usp=sharing
-
-[![Jash's GitHub stats](https://github-readme-stats.vercel.app/api?username=JashAgrawal)](https://github.com/JashAgrawal/github-readme-stats)
+## Github Stats :-
+[![Jash's GitHub stats](https://github-readme-stats.vercel.app/api?username=JashAgrawal)](https://git
+hub.com/JashAgrawal/github-readme-stats)
