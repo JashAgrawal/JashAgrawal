@@ -40,5 +40,5 @@ An Olx Clone Which is basically an second hand ecommerce store . (Was An intervi
 
 
 ## Github Stats :-
-[![Jash's GitHub stats](https://github-readme-stats.vercel.app/api?username=JashAgrawal)](https://git
+[![Jash's GitHub stats](https://github-readme-stats.vercel.app/api?username=JashAgrawal)(https://git
 hub.com/JashAgrawal/github-readme-stats)
