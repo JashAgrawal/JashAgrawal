@@ -6,7 +6,7 @@ I am about to finish my bachelor’s degree in computer science. I Learn technol
 
 Actively intervewing for FullStack/Frontend/Backend Developer profiles .
 
-## I would love to join your team as a FullStack developer .
+# I would love to join your team as a FullStack developer .
 
 ## More about me
 
