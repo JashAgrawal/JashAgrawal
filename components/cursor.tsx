@@ -12,7 +12,7 @@ const Cursor = ({ children }: { children: any }) => {
     <div ref={ref}>
       <motion.div
         variants={variants}
-        className="circle"
+        className="circle  max-lg:hidden"
         animate={cursorVariant}
         transition={spring}
       >

@@ -154,6 +154,7 @@ export const projectsData = [
       skills["tailwind"],
     ],
     imageUrl: Autobackend,
+    link: "https://autobackend.vercel.app/",
   },
   {
     title: "Vangaurd Vogue",
@@ -168,6 +169,7 @@ export const projectsData = [
       skills["tailwind"],
     ],
     imageUrl: VV,
+    link: "https://vangaurd-vogue.vercel.app/",
   },
 ] as const;
 

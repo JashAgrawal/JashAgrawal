@@ -27,14 +27,15 @@ export default function Intro() {
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
+            whileHover={{ scale: 3 }}
             transition={{
               type: "tween",
               duration: 0.2,
             }}
           >
             <Image
-              onMouseEnter={heartEnter}
-              onMouseLeave={makeDefault}
+              // onMouseEnter={heartEnter}
+              // onMouseLeave={makeDefault}
               src="/Jash.jpg"
               alt="Jash portrait"
               width="192"
