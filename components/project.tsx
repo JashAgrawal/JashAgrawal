@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { useCursor } from "@/context/cursor-context";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -20,9 +21,11 @@ export default function Project({
   });
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
-
+  const { projectEnter, makeDefault } = useCursor();
   return (
     <motion.div
+      onMouseEnter={() => projectEnter(title)}
+      onMouseLeave={() => makeDefault()}
       ref={ref}
       style={{
         scale: scaleProgess,

@@ -47,7 +47,7 @@ export const skillsDataMap = [
     icon: React.createElement(TbBrandReactNative),
     color: "#61dbfb",
   },
-  { text: "Next.js", icon: React.createElement(SiNextdotjs), color: "#ffffff" },
+  { text: "Next.js", icon: React.createElement(SiNextdotjs), color: "#38bdf8" },
   { text: "Node.js", icon: React.createElement(FaNodeJs), color: "#68a063" },
   { text: "Git", icon: React.createElement(FaGitAlt), color: "#f34f29" },
   {
@@ -55,10 +55,10 @@ export const skillsDataMap = [
     icon: React.createElement(SiTailwindcss),
     color: "#38b2ac",
   },
-  { text: "Prisma", icon: React.createElement(SiPrisma), color: "#ffffff" },
+  { text: "Prisma", icon: React.createElement(SiPrisma), color: "#38bdf8" },
   { text: "MongoDB", icon: React.createElement(SiMongodb), color: "#4ea94b" },
   { text: "Redux", icon: React.createElement(SiRedux), color: "#764abc" },
-  { text: "Express", icon: React.createElement(SiExpress), color: "#ffffff" },
+  { text: "Express", icon: React.createElement(SiExpress), color: "#38bdf8" },
   { text: "SQL", icon: React.createElement(SiMysql), color: "#4479a1" },
   { text: "Python", icon: React.createElement(FaPython), color: "#3776ab" },
   {

@@ -5,6 +5,7 @@ import SectionHeading from "./section-heading";
 import { skillsDataMap } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
+import { useCursor } from "@/context/cursor-context";
 
 const fadeInAnimationVariants = {
   initial: {
@@ -22,7 +23,7 @@ const fadeInAnimationVariants = {
 
 export default function Skills() {
   const { ref } = useSectionInView("Skills");
-
+  const { skillEnter, makeDefault } = useCursor();
   return (
     <section
       id="skills"
@@ -33,10 +34,16 @@ export default function Skills() {
       <ul className="flex flex-wrap justify-center gap-[0.7rem] text-lg text-gray-800">
         {skillsDataMap.map((skill, index) => (
           <motion.li
+            onMouseEnter={() => skillEnter(skill.text)}
+            onMouseLeave={() => makeDefault()}
             whileHover={{
               scale: 1.1,
               transition: { duration: 0.5 },
-              backgroundColor: skill.color,
+              backgroundColor: "#6b7280",
+              color: skill.color,
+            }}
+            style={{
+              color: skill.color,
             }}
             className={`bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80 flex flex-row justify-center items-center `}
             key={index}
@@ -48,21 +55,8 @@ export default function Skills() {
             }}
             custom={index}
           >
-            <div style={{ color: skill.color }} className="mr-2">
-              {skill.icon}
-            </div>
-            <p
-              // style={{ color: skill.color }}
-              // style={{
-              //   background: `linear-gradient(to right,white, ${skill.color},white)`,
-              //   WebkitBackgroundClip: "text",
-              //   backgroundClip: "text",
-              //   color: "transparent",
-              // }}
-              className={`text-[${skill.color}]`}
-            >
-              {skill.text}
-            </p>
+            <div className="mr-2">{skill.icon}</div>
+            <p>{skill.text}</p>
           </motion.li>
         ))}
       </ul>

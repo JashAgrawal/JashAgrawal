@@ -9,11 +9,13 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { useVariants } from "./config";
+import { useCursor } from "@/context/cursor-context";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
-
+  const { makeDefault, heartEnter } = useCursor();
   return (
     <section
       ref={ref}
@@ -31,6 +33,8 @@ export default function Intro() {
             }}
           >
             <Image
+              onMouseEnter={heartEnter}
+              onMouseLeave={makeDefault}
               src="/Jash.jpg"
               alt="Jash portrait"
               width="192"
