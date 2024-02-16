@@ -21,14 +21,20 @@ import {
   SiJavascript,
   SiNextdotjs,
   SiBlockchaindotcom,
+  SiCivicrm,
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 //@ts-ignore
 import Autobackend from "@/public/autobackend.png";
 //@ts-ignore
 import VV from "@/public/vangaurd_vogue.png";
+//@ts-ignore
+import SP from "@/public/sp.png";
+//@ts-ignore
+import IW from "@/public/iw.png";
 import { color } from "framer-motion";
 export const skillsDataMap = [
+  { text: "CRM", icon: React.createElement(SiCivicrm), color: "#3178c6" },
   { text: "HTML", icon: React.createElement(FaHtml5), color: "#e34c26" },
   { text: "CSS", icon: React.createElement(FaCss3Alt), color: "#264de4" },
   {
@@ -170,6 +176,35 @@ export const projectsData = [
     ],
     imageUrl: VV,
     link: "https://vangaurd-vogue.vercel.app/",
+  },
+  {
+    title: "Ielts Wizardz",
+    description:
+      "Designed and built website for IELTS Wizardz, showcasing their comprehensive study abroad services and impressive track record of student success.",
+    tags: [
+      skills["react"],
+      skills["crm"],
+      skills["next.js"],
+      skills["node.js"],
+      skills["typescript"],
+      skills["tailwind"],
+    ],
+    imageUrl: IW,
+    link: "https://www.ieltswizardz.com/",
+  },
+  {
+    title: "Surya Prakash Silk Mills",
+    description:
+      "Engineered a captivating website for Surya Prakash Silk Mills, meticulously presenting their exquisite range of products.",
+    tags: [
+      skills["react"],
+      skills["next.js"],
+      skills["node.js"],
+      skills["typescript"],
+      skills["tailwind"],
+    ],
+    imageUrl: SP,
+    link: "https://suryaprakashsilkmills.com/",
   },
 ] as const;
 
