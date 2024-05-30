@@ -32,6 +32,7 @@ import VV from "@/public/vangaurd_vogue.png";
 import SP from "@/public/sp.png";
 //@ts-ignore
 import IW from "@/public/iw.png";
+import CJFLIX from "@/public/cjflixx.png";
 import { color } from "framer-motion";
 export const skillsDataMap = [
   { text: "CRM", icon: React.createElement(SiCivicrm), color: "#3178c6" },
@@ -130,7 +131,6 @@ export const experiencesData = [
 mobile app from scratch. Developed a social recommendation app that lets users earn
 credits that can be used as cash in the app. Developed a vendor-side web app for businesses listed in the
 social recommendation app.
-
 `,
     icon: React.createElement(CgWorkAlt),
     date: "07/2023 - 10/2023",
@@ -140,8 +140,17 @@ social recommendation app.
     company: "Jash Agrawal Tech",
     location: "Remote",
     description: `As a freelancer, I utilized MongoDB, Express, React, and Node.js to create dynamic applications that seamlessly integrated frontend and backend functionality. Implemented RESTful APIs for efficient communication and employed Git for version control to ensure codebase integrity. I am open to new opportunities`,
-    icon: React.createElement(FaReact),
-    date: "08/2023 - present",
+    icon: React.createElement(CgWorkAlt),
+    date: "08/2023 - 03/2024",
+  },
+  {
+    title: "Full stack Developer",
+    company: "VSure Consultancy",
+    location: "Remote",
+    description:
+      "Developed robust,scalable web solutions for clients with NextJs, PostgreSql, and much more. Proficient in Git for efficient project management. Collaborated with cross-functional teams to integrate APIs with ReactJS and Redux frontend. Skilled in client communication, translating business needs into tech solutions.",
+    icon: React.createElement(CgWorkAlt),
+    date: "04/2024 - present",
   },
 ] as const;
 
@@ -161,6 +170,20 @@ export const projectsData = [
     ],
     imageUrl: Autobackend,
     link: "https://autobackend.vercel.app/",
+  },
+  {
+    title: "CJFLIXX",
+    description:
+      "CJFLixx :- Website to watch Tv Shows and movies for free. Your go-to platform for streaming TV shows and movies for free. ",
+    tags: [
+      skills["react"],
+      skills["next.js"],
+      skills["typescript"],
+      skills["sql"],
+      skills["tailwind"],
+    ],
+    imageUrl: CJFLIX,
+    link: "https://cjflixx.vercel.app/",
   },
   {
     title: "Vangaurd Vogue",
