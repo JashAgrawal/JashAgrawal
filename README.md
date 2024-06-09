@@ -1,12 +1,10 @@
 Hi there 👋, 
-This is Jash Agrawal
+This is [Jash Agrawal](https://jashagrawal.in/) 
 I'm passionate FullStack developer
 
-I am about to finish my bachelor’s degree in computer science. I Learn technologies to build project which solve real-life problems and not to just to showcase my work .
+I build project which solve real-life problems and not to just to showcase my work .
 
-Actively intervewing for FullStack/Frontend/Backend Developer profiles .
-
-#### I would love to join your team as a FullStack developer .
+Full Stack Developer at [VSure Consultancy](https://www.vsureconsultancy.com/)
 
 ## More about me
 
@@ -15,7 +13,7 @@ Actively intervewing for FullStack/Frontend/Backend Developer profiles .
 - 👯 I’m looking to collaborate on any exiting and innovative projects .
 - 💬 Ask me about Anything will learn about it then answer it for sure .
 - 📫 How to reach me:
-[LinkedIn](https://www.linkedin.com/in/jash--agrawal/)  [Email](agrawaljash99@gmail.com) [Resume]( https://drive.google.com/file/d/1LI80rPV3qrKKcfYUsIgbrbN1U8ZnpWWx/view?usp=sharing)
+[LinkedIn](https://www.linkedin.com/in/jash--agrawal/)  [Email](agrawaljash99@gmail.com) [Resume](https://jashagrawal.in/resume/)
 
 ## Some of my projects :-
 
