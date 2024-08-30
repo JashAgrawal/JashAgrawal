@@ -183,7 +183,7 @@ export const projectsData = [
       skills["tailwind"],
     ],
     imageUrl: CJFLIX,
-    link: "https://cjflixx.vercel.app/",
+    link: "https://jhingalala.vercel.app/",
   },
   {
     title: "Vangaurd Vogue",
