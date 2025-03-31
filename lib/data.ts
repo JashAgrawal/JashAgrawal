@@ -41,7 +41,7 @@ import SlidesAI from "@/public/slides.png";
 //@ts-ignore
 import Mailer from "@/public/mailer.png";
 //@ts-ignore
-import StartupAI from "@/public/startup.png";
+import StartupAI from "@/public/Startup.png";
 //@ts-ignore
 import FriendsTV from "@/public/friends.png";
 
