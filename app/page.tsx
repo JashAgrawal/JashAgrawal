@@ -10,14 +10,14 @@ import Skills from "@/components/skills";
 import { useEffect } from "react";
 
 export default function Home() {
-  useEffect(() => {
-    const lenis = new Lenis();
-    function raf(time: any) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-    requestAnimationFrame(raf);
-  }, []);
+  // useEffect(() => {
+  //   const lenis = new Lenis();
+  //   function raf(time: any) {
+  //     lenis.raf(time);
+  //     requestAnimationFrame(raf);
+  //   }
+  //   requestAnimationFrame(raf);
+  // }, []);
 
   return (
     <main className="flex flex-col items-center px-4">

@@ -194,8 +194,7 @@ export const projectsData = [
   },
   {
     title: "Mailer",
-    description:
-      "An advanced email marketing platform where users can create a sender account using their email and app password. The platform enables users to design dynamic email templates with custom variables, manage sender lists, send emails, and track the number of times an email has been opened.",
+    description:"An advanced email marketing platform for creating sender accounts, designing dynamic templates, managing lists, sending emails, and tracking opens.",
     tags: [skills["react"], skills["tailwind"], skills["node.js"]],
     imageUrl: Mailer,
     link: "https://mailer.jashagrawal.in/",
@@ -221,8 +220,7 @@ export const projectsData = [
   },
   {
     title: "SlidesAI",
-    description:
-      "An AI-driven pitch deck generator that allows users to input their startup idea and instantly generate a complete, downloadable PowerPoint presentation. Ideal for startups preparing investor pitches with minimal effort.",
+    description:"An AI-powered tool that transforms startup ideas into complete, downloadable pitch decks, perfect for effortless investor presentations.",
     tags: [skills["react"], skills["tailwind"], skills["gemini"]],
     imageUrl: SlidesAI,
     link: "https://slides.jashagrawal.in/",
