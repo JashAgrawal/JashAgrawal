@@ -32,8 +32,19 @@ import VV from "@/public/vangaurd_vogue.png";
 import SP from "@/public/sp.png";
 //@ts-ignore
 import IW from "@/public/iw.png";
-import CJFLIX from "@/public/cjflixx.png";
-import { color } from "framer-motion";
+//@ts-ignore
+import EzzCopy from "@/public/ezz.png";
+//@ts-ignore
+import SummarizeAI from "@/public/summarize.png";
+//@ts-ignore
+import SlidesAI from "@/public/slides.png";
+//@ts-ignore
+import Mailer from "@/public/mailer.png";
+//@ts-ignore
+import StartupAI from "@/public/startup.png";
+//@ts-ignore
+import FriendsTV from "@/public/friends.png";
+
 export const skillsDataMap = [
   { text: "CRM", icon: React.createElement(SiCivicrm), color: "#3178c6" },
   { text: "HTML", icon: React.createElement(FaHtml5), color: "#e34c26" },
@@ -80,27 +91,27 @@ export const skills = Object.fromEntries(
 export const links = [
   {
     name: "Home",
-    hash: "#home",
+    hash: "/#home",
   },
   {
     name: "About",
-    hash: "#about",
+    hash: "/#about",
   },
   {
     name: "Projects",
-    hash: "#projects",
+    hash: "/#projects",
   },
   {
     name: "Skills",
-    hash: "#skills",
+    hash: "/#skills",
   },
   {
     name: "Experience",
-    hash: "#experience",
+    hash: "/#experience",
   },
   {
     name: "Contact",
-    hash: "#contact",
+    hash: "/#contact",
   },
 ] as const;
 
@@ -170,20 +181,67 @@ export const projectsData = [
     ],
     imageUrl: Autobackend,
     link: "https://autobackend.vercel.app/",
+    di:1
   },
   {
-    title: "CJFLIXX",
+    title: "StartupAI",
     description:
-      "CJFLixx :- Website to watch Tv Shows and movies for free. Your go-to platform for streaming TV shows and movies for free. ",
+      "An AI tool that analyzes startup ideas, covering market, legal, growth, and funding aspects, with role-specific AI advisors for tailored insights.",
+    tags: [skills["react"], skills["tailwind"], skills["gemini"]],
+    imageUrl: StartupAI,
+    link: "https://startup.jashagrawal.in/",
+    di:3
+  },
+  {
+    title: "Mailer",
+    description:
+      "An advanced email marketing platform where users can create a sender account using their email and app password. The platform enables users to design dynamic email templates with custom variables, manage sender lists, send emails, and track the number of times an email has been opened.",
+    tags: [skills["react"], skills["tailwind"], skills["node.js"]],
+    imageUrl: Mailer,
+    link: "https://mailer.jashagrawal.in/",
+    di:4
+  },
+  {
+    title: "EzzCopy",
+    description:
+      "A simple yet effective key-value pair manager where users can store values under specific keys and copy them with a single click, making it perfect for quick access to frequently used data.",
+    tags: [skills["react"], skills["tailwind"]],
+    imageUrl: EzzCopy,
+    link: "https://ezzcopy.jashagrawal.in/",
+    di:11
+  },
+  {
+    title: "SummarizeAI",
+    description:
+      "An AI-powered summarization tool that allows users to quickly summarize PDFs, documents, web pages, blogs, and YouTube videos using their own API key. With just one click, users can get concise summaries of large pieces of content.",
+    tags: [skills["react"], skills["tailwind"], skills["gemini"]],
+    imageUrl: SummarizeAI,
+    link: "https://summarize.jashagrawal.in/",
+    di:5
+  },
+  {
+    title: "SlidesAI",
+    description:
+      "An AI-driven pitch deck generator that allows users to input their startup idea and instantly generate a complete, downloadable PowerPoint presentation. Ideal for startups preparing investor pitches with minimal effort.",
+    tags: [skills["react"], skills["tailwind"], skills["gemini"]],
+    imageUrl: SlidesAI,
+    link: "https://slides.jashagrawal.in/",
+    di:6
+  },
+
+  {
+    title: "Friends TV",
+    description:
+      "Website to watch Tv Shows and Movies for free. Your go-to platform for streaming anything for free. ",
     tags: [
       skills["react"],
       skills["next.js"],
       skills["typescript"],
-      skills["sql"],
       skills["tailwind"],
     ],
-    imageUrl: CJFLIX,
-    link: "https://jhingalala.vercel.app/",
+    imageUrl: FriendsTV,
+    link: "https://friends-tv.vercel.app/",
+    di:2
   },
   {
     title: "Vangaurd Vogue",
@@ -199,6 +257,7 @@ export const projectsData = [
     ],
     imageUrl: VV,
     link: "https://vangaurd-vogue.vercel.app/",
+    di:7
   },
   {
     title: "Ielts Wizardz",
@@ -214,6 +273,7 @@ export const projectsData = [
     ],
     imageUrl: IW,
     link: "https://www.ieltswizardz.com/",
+    di:8
   },
   {
     title: "Surya Prakash Silk Mills",
@@ -228,8 +288,9 @@ export const projectsData = [
     ],
     imageUrl: SP,
     link: "https://suryaprakashsilkmills.com/",
+    di:9
   },
-] as const;
+] ;
 
 export const descriptionData = `Hey there, I'm Jash Agrawal, a dedicated Full Stack Developer with a flair for JavaScript, React, Redux, NodeJs, and SQL. With a Bachelor's in Computer Engineering from the University Of Mumbai, I'm all about crafting solutions that make a difference.
 
