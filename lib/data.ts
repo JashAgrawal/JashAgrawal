@@ -179,9 +179,7 @@ export const projectsData = [
       skills["redux"],
       skills["next.js"],
       skills["node.js"],
-      skills["typescript"],
       skills["sql"],
-      skills["tailwind"],
     ],
     imageUrl: Autobackend,
     link: "https://autobackend.vercel.app/",
@@ -217,7 +215,7 @@ export const projectsData = [
   {
     title: "SummarizeAI",
     description:
-      "An AI-powered summarization tool that allows users to quickly summarize PDFs, documents, web pages, blogs, and YouTube videos using their own API key. With just one click, users can get concise summaries of large pieces of content.",
+      "An AI-powered summarization tool that allows users to quickly summarize PDFs, documents, web pages, blogs, and YouTube videos using their own API key in a click.",
     tags: [skills["react"], skills["tailwind"], skills["gemini"]],
     imageUrl: SummarizeAI,
     link: "https://summarize.jashagrawal.in/",
@@ -250,7 +248,7 @@ export const projectsData = [
   {
     title: "Vangaurd Vogue",
     description:
-      "Vanguard Vogue: Anime apparel e-commerce site. Collaborated closely with the client to craft a custom interface reflecting their unique style.",
+      "Vanguard Vogue: Anime apparel e-commerce site. Collaborated closely with the client to craft a custom interface.",
     tags: [
       skills["react"],
       skills["redux"],
@@ -266,7 +264,7 @@ export const projectsData = [
   {
     title: "Ielts Wizardz",
     description:
-      "Designed and built website for IELTS Wizardz, showcasing their comprehensive study abroad services and impressive track record of student success.",
+      "Designed and built website for IELTS Wizardz, showcasing their comprehensive study abroad services.",
     tags: [
       skills["react"],
       skills["crm"],

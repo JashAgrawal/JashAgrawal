@@ -8,6 +8,9 @@ import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
 import { useEffect } from "react";
+import Head from "next/head";
+import Script from "next/script";
+import Image from "next/image";
 
 export default function Home() {
   // useEffect(() => {
@@ -27,6 +30,17 @@ export default function Home() {
       <Projects />
       <Skills />
       <Experience />
+      <div className="my-6">
+        <a href="https://www.buymeacoffee.com/jashagrawal" target="_blank">
+          <Image
+            src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png"
+            width={217}
+            height={60}
+            alt="Buy Me A Coffee"
+            style={{ height: "60px !important", width: "217px !important;" }}
+          />
+        </a>
+      </div>
       <Contact />
     </main>
   );

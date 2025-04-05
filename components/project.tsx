@@ -5,8 +5,11 @@ import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useCursor } from "@/context/cursor-context";
+import { cn } from "@/lib/utils";
 
-type ProjectProps = (typeof projectsData)[number];
+type ProjectProps = (typeof projectsData)[number] & {
+  isPage?: boolean;
+};
 
 export default function Project({
   title,
@@ -14,6 +17,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  isPage = false,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -35,8 +39,13 @@ export default function Project({
       className="group mb-3 sm:mb-8 last:mb-0"
     >
       <a target="_blank" href={link}>
-        <section className="bg-gray-100 max-w-[45rem] border border-black/5 rounded-lg overflow-hidden sm:pr-0 relative sm:h-[22rem] hover:bg-gray-200 transition sm:group-even:pl-0 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
-          <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
+        <section
+          className={cn(
+            "bg-gray-100 border border-black/5 rounded-lg overflow-hidden sm:pr-0 relative sm:h-[22rem] hover:bg-gray-200 transition sm:group-even:pl-0 dark:text-white dark:bg-white/10 dark:hover:bg-white/20",
+            isPage ? "max-w-full" : "max-w-[45rem]"
+          )}
+        >
+          <div className="w-full pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[13rem]">
             <h3 className="text-2xl font-semibold">{title}</h3>
             <p className="mt-2 text-sm mb-2 leading-relaxed text-gray-700 dark:text-white/70">
               {description}
@@ -63,7 +72,7 @@ export default function Project({
             src={imageUrl}
             alt="Project I worked on"
             quality={95}
-            className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+            className="absolute hidden sm:block top-8 -right-40 w-[23.25rem] rounded-t-lg shadow-2xl
         transition 
         group-hover:scale-[1.04]
         group-hover:-translate-x-3

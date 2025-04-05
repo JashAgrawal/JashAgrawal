@@ -14,7 +14,7 @@ const AllProjectsPage = async () => {
           .sort((a, b) => (a.di || 0) - (b.di || 0))
           .map((project, index) => (
             <React.Fragment key={index}>
-              <Project {...project} />
+              <Project {...project} isPage />
             </React.Fragment>
           ))}
       </div>
