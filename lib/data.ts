@@ -110,6 +110,10 @@ export const links = [
     hash: "/#experience",
   },
   {
+    name: "Blogs",
+    hash: "/blogs",
+  },
+  {
     name: "Contact",
     hash: "/#contact",
   },
@@ -181,7 +185,7 @@ export const projectsData = [
     ],
     imageUrl: Autobackend,
     link: "https://autobackend.vercel.app/",
-    di:1
+    di: 1,
   },
   {
     title: "StartupAI",
@@ -190,15 +194,16 @@ export const projectsData = [
     tags: [skills["react"], skills["tailwind"], skills["gemini"]],
     imageUrl: StartupAI,
     link: "https://startup.jashagrawal.in/",
-    di:3
+    di: 3,
   },
   {
     title: "Mailer",
-    description:"An advanced email marketing platform for creating sender accounts, designing dynamic templates, managing lists, sending emails, and tracking opens.",
+    description:
+      "An advanced email marketing platform for creating sender accounts, designing dynamic templates, managing lists, sending emails, and tracking opens.",
     tags: [skills["react"], skills["tailwind"], skills["node.js"]],
     imageUrl: Mailer,
     link: "https://mailer.jashagrawal.in/",
-    di:4
+    di: 4,
   },
   {
     title: "EzzCopy",
@@ -207,7 +212,7 @@ export const projectsData = [
     tags: [skills["react"], skills["tailwind"]],
     imageUrl: EzzCopy,
     link: "https://ezzcopy.jashagrawal.in/",
-    di:11
+    di: 11,
   },
   {
     title: "SummarizeAI",
@@ -216,15 +221,16 @@ export const projectsData = [
     tags: [skills["react"], skills["tailwind"], skills["gemini"]],
     imageUrl: SummarizeAI,
     link: "https://summarize.jashagrawal.in/",
-    di:5
+    di: 5,
   },
   {
     title: "SlidesAI",
-    description:"An AI-powered tool that transforms startup ideas into complete, downloadable pitch decks, perfect for effortless investor presentations.",
+    description:
+      "An AI-powered tool that transforms startup ideas into complete, downloadable pitch decks, perfect for effortless investor presentations.",
     tags: [skills["react"], skills["tailwind"], skills["gemini"]],
     imageUrl: SlidesAI,
     link: "https://slides.jashagrawal.in/",
-    di:6
+    di: 6,
   },
 
   {
@@ -239,7 +245,7 @@ export const projectsData = [
     ],
     imageUrl: FriendsTV,
     link: "https://friends-tv.vercel.app/",
-    di:2
+    di: 2,
   },
   {
     title: "Vangaurd Vogue",
@@ -255,7 +261,7 @@ export const projectsData = [
     ],
     imageUrl: VV,
     link: "https://vangaurd-vogue.vercel.app/",
-    di:7
+    di: 7,
   },
   {
     title: "Ielts Wizardz",
@@ -271,7 +277,7 @@ export const projectsData = [
     ],
     imageUrl: IW,
     link: "https://www.ieltswizardz.com/",
-    di:8
+    di: 8,
   },
   {
     title: "Surya Prakash Silk Mills",
@@ -286,9 +292,9 @@ export const projectsData = [
     ],
     imageUrl: SP,
     link: "https://suryaprakashsilkmills.com/",
-    di:9
+    di: 9,
   },
-] ;
+];
 
 export const descriptionData = `Hey there, I'm Jash Agrawal, a dedicated Full Stack Developer with a flair for JavaScript, React, Redux, NodeJs, and SQL. With a Bachelor's in Computer Engineering from the University Of Mumbai, I'm all about crafting solutions that make a difference.
 
