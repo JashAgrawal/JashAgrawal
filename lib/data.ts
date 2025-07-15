@@ -45,6 +45,9 @@ import StartupAI from "@/public/Startup.png";
 //@ts-ignore
 import FriendsTV from "@/public/friends.png";
 
+import MAGICUI from "@/public/magic.png";
+import SUPREME from "@/public/supreme.png";
+
 export const skillsDataMap = [
   { text: "CRM", icon: React.createElement(SiCivicrm), color: "#3178c6" },
   { text: "HTML", icon: React.createElement(FaHtml5), color: "#e34c26" },
@@ -109,10 +112,10 @@ export const links = [
     name: "Experience",
     hash: "/#experience",
   },
-  {
-    name: "Blogs",
-    hash: "/blogs",
-  },
+  // {
+  //   name: "Blogs",
+  //   hash: "/blogs",
+  // },
   {
     name: "Contact",
     hash: "/#contact",
@@ -183,7 +186,7 @@ export const projectsData = [
     ],
     imageUrl: Autobackend,
     link: "https://autobackend.vercel.app/",
-    di: 1,
+    di: 6,
   },
   {
     title: "StartupAI",
@@ -192,7 +195,7 @@ export const projectsData = [
     tags: [skills["react"], skills["tailwind"], skills["gemini"]],
     imageUrl: StartupAI,
     link: "https://startup.jashagrawal.in/",
-    di: 3,
+    di: 5,
   },
   {
     title: "Mailer",
@@ -219,7 +222,7 @@ export const projectsData = [
     tags: [skills["react"], skills["tailwind"], skills["gemini"]],
     imageUrl: SummarizeAI,
     link: "https://summarize.jashagrawal.in/",
-    di: 5,
+    di: 7,
   },
   {
     title: "SlidesAI",
@@ -228,7 +231,7 @@ export const projectsData = [
     tags: [skills["react"], skills["tailwind"], skills["gemini"]],
     imageUrl: SlidesAI,
     link: "https://slides.jashagrawal.in/",
-    di: 6,
+    di: 8,
   },
 
   {
@@ -243,7 +246,7 @@ export const projectsData = [
     ],
     imageUrl: FriendsTV,
     link: "https://friends-tv.vercel.app/",
-    di: 2,
+    di: 3,
   },
   {
     title: "Vangaurd Vogue",
@@ -259,7 +262,7 @@ export const projectsData = [
     ],
     imageUrl: VV,
     link: "https://vangaurd-vogue.vercel.app/",
-    di: 7,
+    di: 9,
   },
   {
     title: "Ielts Wizardz",
@@ -275,7 +278,7 @@ export const projectsData = [
     ],
     imageUrl: IW,
     link: "https://www.ieltswizardz.com/",
-    di: 8,
+    di: 10,
   },
   {
     title: "Surya Prakash Silk Mills",
@@ -290,8 +293,39 @@ export const projectsData = [
     ],
     imageUrl: SP,
     link: "https://suryaprakashsilkmills.com/",
-    di: 9,
+    di: 11,
   },
+  {
+  title: "MagicUI Next",
+  description:
+    "AI-driven UI generation for Next.js — generate, cache, and render responsive components and full pages from plain descriptions using models like GPT-4o, Gemini, Claude, and more.",
+  tags: [
+    skills["next.js"],
+    skills["react"],
+    skills["typescript"],
+    skills["tailwind"],
+    skills["framer-motion"],
+  ],
+  imageUrl: MAGICUI,
+  link: "https://magicui-next-zeta.vercel.app/",
+  di: 2,
+},
+  {
+  title: "Supreme Toolkit",
+  description:
+    "Developed Supreme Toolkit — a full-stack extension to shadcn/ui, bundling production-ready modules for auth, Stripe, chat, waitlists, and more.",
+  tags: [
+    skills["next.js"],
+    skills["typescript"],
+    skills["tailwind"],
+    skills["node.js"],
+    skills["shadcn/ui"],
+  ],
+  imageUrl: SUPREME,
+  link: "https://supremetoolkit.in/",
+  di: 1,
+}
+
 ];
 
 export const descriptionData = `Hey there, I'm Jash Agrawal, a dedicated Full Stack Developer with a flair for JavaScript, React, Redux, NodeJs, and SQL. With a Bachelor's in Computer Engineering from the University Of Mumbai, I'm all about crafting solutions that make a difference.
