@@ -322,7 +322,7 @@ export const projectsData = [
     skills["shadcn/ui"],
   ],
   imageUrl: SUPREME,
-  link: "https://supremetoolkit.in/",
+  link: "https://supreme.jashagrawal.in/",
   di: 1,
 }
 
