@@ -7,6 +7,7 @@ import {
   FaNodeJs,
   FaPython,
   FaReact,
+  FaPaw,
 } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 SiTypescript;
@@ -22,6 +23,10 @@ import {
   SiNextdotjs,
   SiBlockchaindotcom,
   SiCivicrm,
+  SiExpo,
+  SiReactquery,
+  SiRazorpay,
+  SiGooglemaps,
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 //@ts-ignore
@@ -44,9 +49,14 @@ import Mailer from "@/public/mailer.png";
 import StartupAI from "@/public/Startup.png";
 //@ts-ignore
 import FriendsTV from "@/public/friends.png";
-
+//@ts-ignore
 import MAGICUI from "@/public/magic.png";
+//@ts-ignore
 import SUPREME from "@/public/supreme.png";
+//@ts-ignore
+import NoShit from "@/public/noshit.png";
+//@ts-ignore
+import DukaanPe from "@/public/dukaanpe.png";
 
 export const skillsDataMap = [
   { text: "CRM", icon: React.createElement(SiCivicrm), color: "#3178c6" },
@@ -87,6 +97,11 @@ export const skillsDataMap = [
     icon: React.createElement(SiBlockchaindotcom),
     color: "#00a1d9",
   },
+  { text: "Expo", icon: React.createElement(SiExpo), color: "#000020" },
+  { text: "Zustand", icon: React.createElement(FaPaw), color: "#443e38" },
+  { text: "React Query", icon: React.createElement(SiReactquery), color: "#ff4154" },
+  { text: "Razorpay", icon: React.createElement(SiRazorpay), color: "#3395ff" },
+  { text: "Google Maps", icon: React.createElement(SiGooglemaps), color: "#4285f4" },
 ];
 export const skills = Object.fromEntries(
   skillsDataMap.map((skill) => [skill.text.toLowerCase(), skill])
@@ -174,6 +189,39 @@ social recommendation app.
 
 export const projectsData = [
   {
+    title: "No Shit",
+    description:
+      "A blunt AI startup idea validator where users submit an idea and instantly receive a structured verdict, scoring, risks, market fit analysis, and execution guidance — built to save founders time, money, and delusion.",
+    tags: [
+      skills["next.js"],
+      skills["react"],
+      skills["typescript"],
+      skills["tailwind"],
+      skills["gemini"],
+    ],
+    imageUrl: NoShit,
+    link: "https://no-shit.vercel.app/",
+    di: 1,
+  }
+  ,
+  {
+    title: "Dukaan Pe",
+    description:
+      "A single-app commerce platform where users can browse, order, book, or interact with local and pan-India stores, while each business gets its own customizable mobile app and website — eliminating app fatigue and making digital storefronts effortless.",
+    tags: [
+      skills["react native"],
+      skills["expo"],
+      skills["typescript"],
+      skills["zustand"],
+      skills["react query"],
+      skills["razorpay"],
+      skills["google maps"],
+    ],
+    imageUrl: DukaanPe,
+    link: "https://dukaanpe.vercel.app/",
+    di: 2,
+  },
+  {
     title: "AutoBackend",
     description:
       "I worked on this awesome startup project for 6 years.Where Users can automatically generate complete backend code with database queries",
@@ -186,7 +234,7 @@ export const projectsData = [
     ],
     imageUrl: Autobackend,
     link: "https://autobackend.vercel.app/",
-    di: 6,
+    di: 7,
   },
   {
     title: "StartupAI",
@@ -195,7 +243,7 @@ export const projectsData = [
     tags: [skills["react"], skills["tailwind"], skills["gemini"]],
     imageUrl: StartupAI,
     link: "https://startup.jashagrawal.in/",
-    di: 5,
+    di: 8,
   },
   {
     title: "Mailer",
@@ -213,7 +261,7 @@ export const projectsData = [
     tags: [skills["react"], skills["tailwind"]],
     imageUrl: EzzCopy,
     link: "https://ezzcopy.jashagrawal.in/",
-    di: 11,
+    di: 9,
   },
   {
     title: "SummarizeAI",
@@ -222,7 +270,7 @@ export const projectsData = [
     tags: [skills["react"], skills["tailwind"], skills["gemini"]],
     imageUrl: SummarizeAI,
     link: "https://summarize.jashagrawal.in/",
-    di: 7,
+    di: 10,
   },
   {
     title: "SlidesAI",
@@ -231,7 +279,7 @@ export const projectsData = [
     tags: [skills["react"], skills["tailwind"], skills["gemini"]],
     imageUrl: SlidesAI,
     link: "https://slides.jashagrawal.in/",
-    di: 8,
+    di: 11,
   },
 
   {
@@ -246,7 +294,7 @@ export const projectsData = [
     ],
     imageUrl: FriendsTV,
     link: "https://friends-tv.vercel.app/",
-    di: 3,
+    di: 6,
   },
   {
     title: "Vangaurd Vogue",
@@ -262,7 +310,7 @@ export const projectsData = [
     ],
     imageUrl: VV,
     link: "https://vangaurd-vogue.vercel.app/",
-    di: 9,
+    di: 12,
   },
   {
     title: "Ielts Wizardz",
@@ -278,7 +326,7 @@ export const projectsData = [
     ],
     imageUrl: IW,
     link: "https://www.ieltswizardz.com/",
-    di: 10,
+    di: 13,
   },
   {
     title: "Surya Prakash Silk Mills",
@@ -293,38 +341,38 @@ export const projectsData = [
     ],
     imageUrl: SP,
     link: "https://suryaprakashsilkmills.com/",
-    di: 11,
+    di: 14,
   },
   {
-  title: "MagicUI Next",
-  description:
-    "AI-driven UI generation for Next.js — generate, cache, and render responsive components and full pages from plain descriptions using models like GPT-4o, Gemini, Claude, and more.",
-  tags: [
-    skills["next.js"],
-    skills["react"],
-    skills["typescript"],
-    skills["tailwind"],
-    skills["framer-motion"],
-  ],
-  imageUrl: MAGICUI,
-  link: "https://magicui-next-zeta.vercel.app/",
-  di: 2,
-},
+    title: "MagicUI Next",
+    description:
+      "AI-driven UI generation for Next.js — generate, cache, and render responsive components and full pages from plain descriptions using models like GPT-4o, Gemini, Claude, and more.",
+    tags: [
+      skills["next.js"],
+      skills["react"],
+      skills["typescript"],
+      skills["tailwind"],
+      skills["framer-motion"],
+    ],
+    imageUrl: MAGICUI,
+    link: "https://magicui-next-zeta.vercel.app/",
+    di: 4,
+  },
   {
-  title: "Supreme Toolkit",
-  description:
-    "Developed Supreme Toolkit — a full-stack extension to shadcn/ui, bundling production-ready modules for auth, Stripe, chat, waitlists, and more.",
-  tags: [
-    skills["next.js"],
-    skills["typescript"],
-    skills["tailwind"],
-    skills["node.js"],
-    skills["shadcn/ui"],
-  ],
-  imageUrl: SUPREME,
-  link: "https://supreme.jashagrawal.in/",
-  di: 1,
-}
+    title: "Supreme Toolkit",
+    description:
+      "Developed Supreme Toolkit — a full-stack extension to shadcn/ui, bundling production-ready modules for auth, Stripe, chat, waitlists, and more.",
+    tags: [
+      skills["next.js"],
+      skills["typescript"],
+      skills["tailwind"],
+      skills["node.js"],
+      skills["shadcn/ui"],
+    ],
+    imageUrl: SUPREME,
+    link: "https://supreme.jashagrawal.in/",
+    di: 3,
+  }
 
 ];
 
